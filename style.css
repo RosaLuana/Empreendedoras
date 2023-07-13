@@ -1,0 +1,101 @@
+body {
+    background-color: #ffe8e5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    text-align: center;
+    color: #b86b77;
+    margin: 10%;
+    margin-top: auto;
+}
+
+section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+div {
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 2;
+    padding-left: 0;
+    text-align: center;
+}
+
+.menu:hover {
+    color: #d30c78;
+}
+
+.menunavegacao a {
+    text-decoration: none;
+    color: #ffe8e5;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.menunavegacao {
+    background: #eabfb9;
+    height: 40px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.menunavegacao li {
+    display: inline-block;
+    line-height: 2.5;
+    margin: 0 10px;
+}
+
+.card {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #b86b77;
+    vertical-align: top;
+    max-height: 100%;
+}
+
+.card img {
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+
+.card details {
+    width: 300px;
+    height: auto;
+    display: inline-block;
+}
+
+.card details summary {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.card details p {
+    padding: 0 10px;
+}
+
+a {
+    color: #d30c78;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.perfilinstagram:hover {
+    font-size: 20px;
+}
+
+.sitesdicas:hover {
+    font-size: 20px;
+    color: #7400b2;
+}
+
+button {
+    background-color: #d30c78;
+    color: #eabfb9;
+}
